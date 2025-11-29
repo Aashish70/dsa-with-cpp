@@ -7,6 +7,9 @@ int main(){
 
     vector<int> v = {0,3,5,2,68,42,1,6}; //first way creation
     vector<int> v1(10, -1); // second way of creation-- size is 10 and all element is -1.
+    vector<int> vec(5);
+
+    vec.reserve(12) // reserve sapce in memory for 12 element
 
     v.push_back(99); // vector me element dalna
     v.pop_back(); // vector se elemet nikalana
